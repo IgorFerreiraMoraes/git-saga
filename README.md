@@ -1,75 +1,31 @@
-# README padrão do Nuxt (mudar depois)
+#GitSaga
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Índice
 
-## Setup
+-   [Sobre](#sobre)
+-   [Features](#features)
+-   [Agradecimentos](#agradecimentos)
 
-Make sure to install the dependencies:
+## Sobre
 
-```bash
-# npm
-npm install
+GitSaga é uma aplicação web com o objetivo de fornecer uma visualização interativa em linha do lempo para repositórios no GitHub e suas milestones.
 
-# pnpm
-pnpm install
+## Features
 
-# yarn
-yarn install
+Aqui estão as Features pretendidas para o GitSaga:
 
-# bun
-bun install
-```
+-   **Linha do Tempo**: Principal função, uma maneira envolvente de ver a jornada de projetos.
+-   **Plataforma para Conversas**: Envolva-se com a comunidade open-source discutindo milestones e codebases.
+-   **Pesquisa**: Encontre facilmente repositórios e marcos usando filtros.
+-   **Autenticação de Usuário**: Faça login com a conta no GitHub (Firebase OAuth) para personalizar a experiência.
+-   **Repositórios Favoritos**: Salve repositórios para que eles apareçam na sua timeline.
+-   **Notificações**: Defina repositórios para receber informações sempre que um novo passo for dado.
 
-## Development Server
+## Agradecimentos
 
-Start the development server on `http://localhost:3000`:
+Às tecnologias usadas:
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+-   [Nuxt.js](https://nuxt.com/)
+-   [Firebase](https://firebase.google.com/)
+-   [GitHub API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
+-   [PicoCSS](https://picocss.com/)
